@@ -23,3 +23,11 @@ int multiplication(int S, int l)
     
     return pro;
 }
+
+int division(int S, int l)
+{
+    int div = 0;
+    div = S / l;
+    
+    return div;
+}
