@@ -1,32 +1,28 @@
 #include <stdio.h>
 
-int addition(int S, int l)
-{
-    int summ = 0;
+double addition(double S, double l){
+    double summ = 0;
     summ = S + l;
     
     return summ;
 }
 
-int subtraction(int S, int l)
-{
-    int minm = 0;
+double subtraction(double S, double l){
+    double minm = 0;
     minm = S - l;
     
     return minm;
 }
 
-int multiplication(int S, int l)
-{
-    int pro = 0;
+double multiplication(double S, double l){
+    double pro = 0;
     pro = S * l;
     
     return pro;
 }
 
-int division(int S, int l)
-{
-    int div = 0;
+double division(double S, double l){
+    double div = 0;
     div = S / l;
     
     return div;

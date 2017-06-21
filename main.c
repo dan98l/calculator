@@ -4,8 +4,8 @@
 
 int main(){
     
-    int oneNumber = 0;
-    int twoNumber = 0;
+    double oneNumber = 0;
+    double twoNumber = 0;
     int operand = 0;
     
     printf("Добро пожаловать в программу калькулятор! \n");
@@ -15,11 +15,11 @@ int main(){
     printf("'4' соответсвует '/' \n");
     
     printf("Введите первое число: \n");
-    scanf("%d", &oneNumber);
+    scanf("%lf", &oneNumber);
     printf("Введите операцию : \n");
     scanf("%d", &operand);
     printf("Введите второе число: \n");
-    scanf("%d", &twoNumber);
+    scanf("%lf", &twoNumber);
 
    
     return 0;
