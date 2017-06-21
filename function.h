@@ -1,5 +1,5 @@
-double addition(double S,double l);
-double subtraction(double S,double l);
-double multiplication(double S,double l);
-double division(double S,double l);
+double addition(double oneNumber,double twoNumber);
+double subtraction(double oneNumber,double twoNumber);
+double multiplication(double oneNumber,double twoNumber);
+double division(double oneNumber,double twoNumber);
 

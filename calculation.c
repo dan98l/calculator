@@ -1,29 +1,29 @@
 #include <stdio.h>
 
-double addition(double S, double l){
+double addition(double oneNumber,double twoNumber){
     double summ = 0;
-    summ = S + l;
+    summ = oneNumber + twoNumber;
     
     return summ;
 }
 
-double subtraction(double S, double l){
+double subtraction(double oneNumber,double twoNumber){
     double minm = 0;
-    minm = S - l;
+    minm = oneNumber - twoNumber;
     
     return minm;
 }
 
-double multiplication(double S, double l){
+double multiplication(double oneNumber,double twoNumber){
     double pro = 0;
-    pro = S * l;
+    pro = oneNumber * twoNumber;
     
     return pro;
 }
 
-double division(double S, double l){
+double division(double oneNumber,double twoNumber){
     double div = 0;
-    div = S / l;
+    div = oneNumber / twoNumber;
     
     return div;
 }
