@@ -26,7 +26,7 @@ double division(double oneNumber,double twoNumber){
     if(twoNumber != 0){
         div = oneNumber / twoNumber;
         
-    } else printf("Похоже, что вы делите на нуль. Так нельзя :) ");
+    } else printf("Похоже, что вы делите на нуль. Так нельзя :) \n");
     
     return div;
 }
