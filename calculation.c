@@ -23,7 +23,11 @@ double multiplication(double oneNumber,double twoNumber){
 
 double division(double oneNumber,double twoNumber){
     double div = 0;
-    div = oneNumber / twoNumber;
+    if(twoNumber != 0){
+        div = oneNumber / twoNumber;
+        
+    } else printf("Похоже, что вы делите на нуль. Так нельзя :) ");
     
     return div;
 }
+
