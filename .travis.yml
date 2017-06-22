@@ -1,0 +1,16 @@
+language: c
+
+compiler: gcc
+
+install: 
+  - make 
+  - make test
+
+script:
+  - bin/calculator-test
+  
+after_success:
+  - make clean
+
+after_failure:
+  - make clean
