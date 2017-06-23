@@ -12,7 +12,7 @@ CTEST(arithmetic_suite, division)
     
     // Then
     const double expected = 1;
-    ASSERT_EQUAL(expected, result);
+    ASSERT_DBL_NEAR(expected, result);
 }
 
 CTEST(arithmetic_suite, addition)
@@ -26,7 +26,7 @@ CTEST(arithmetic_suite, addition)
     
     // Then
     const double expected = 4;
-    ASSERT_EQUAL(expected, result);
+    ASSERT_DBL_NEAR(expected, result);
 }
 
 CTEST(arithmetic_suite, subtraction)
@@ -40,7 +40,7 @@ CTEST(arithmetic_suite, subtraction)
     
     // Then
     const double expected = 18;
-    ASSERT_EQUAL(expected, result);
+    ASSERT_DBL_NEAR(expected, result);
 }
 
 CTEST(arithmetic_suite, multiplication)
@@ -54,7 +54,7 @@ CTEST(arithmetic_suite, multiplication)
     
     // Then
     const double expected = 18;
-    ASSERT_EQUAL(expected, result);
+    ASSERT_DBL_NEAR(expected, result);
 }
 
 CTEST(arithmetic_suite, division_two)
@@ -68,5 +68,5 @@ CTEST(arithmetic_suite, division_two)
     
     // Then
     const double expected = 0;
-    ASSERT_EQUAL(expected, result);
+    ASSERT_DBL_NEAR(expected, result);
 }
